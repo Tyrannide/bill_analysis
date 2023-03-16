@@ -44,7 +44,6 @@ class EventHandler(FileSystemEventHandler):
                 print("Modification of : ", event.src_path)
                 currentFilePath = event.src_path
 
-
 def awaitingResponse():
 
     w = Watcher()
