@@ -129,7 +129,6 @@ def fact(liste, cL, vL):
     #print(siret[1:])
     # faire une fonction et mettre un retun à la place des prints !! 
 
-
 if __name__ == "__main__" :
     for i in files :
         fact(i)
